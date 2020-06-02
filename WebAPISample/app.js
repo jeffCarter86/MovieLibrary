@@ -14,3 +14,19 @@ function addMovie(e) {
     });
     // e.preventDefault();
 }
+
+function updateMovie(id, title, director, genre) {
+    $.ajax({
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        type: "PUT",
+        async: false,
+        dataType: "json",
+        url: "https://localhost:44325/api/movie",
+        success: location.reload(),
+        contentType: 'application/json',
+        data: JSON.stringify({ MovieId: id, Title: title, Director: director, Genre: genre })
+    });
+};
