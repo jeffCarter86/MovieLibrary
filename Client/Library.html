@@ -8,19 +8,19 @@
     <link rel="stylesheet"  href="style.css">
 </head>
 <style>
-
-     H1{
-        display: block;
-        margin-top: 50px;
-        text-align: center;
-     }   
-     body {
+    body {
             background-image: url('back.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: 2000px 1000px;;
             color:white;
             }
+     H1{
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+     }   
+    
     form {
         margin-top: 250px;
         margin-bottom: 200px;
@@ -30,10 +30,21 @@
     nav{
         color:white;
     }
-    
+    td{
+        color:white;
+        font-size: x-large;
+    }
+    th{
+        color: white;
+        font-size: large;
+    }
+    title{
+        color:white;
+    }
 </style> 
 
 <body>
+    
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
         <!-- Links -->
@@ -50,22 +61,31 @@
       </nav>
     
     <h1>MOVIE Library</h1>
-    <!---------------------------->
+    
+
     <div id="response">
         <pre></pre>
     </div>
-    <!------------------------------->
-    <form id="my-form">
+
+   
+    <div>
+        <div class="container">
+        <table class="table">
+            <thead>
+                <tr>        
+                    <th>Title</th>
+                    <th>Director</th>
+                    <th>Genre</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead> 
+            <tbody id="movie-list">
+                
+            </tbody>                   
+        </table>
+        </div>  
         
-        <input type="text" name="title" placeholder="Title" />
-        <input type="text" name="director" placeholder="Director" />
-        <input type="text" name="genre" placeholder="Genre" />
-
-        <button type="submit">Submit</button>
-
-    </form>
-     
-    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="./app.js"></script>
