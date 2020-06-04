@@ -23,7 +23,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n    {\r\n        \"movieId\": 6,\r\n        \"title\": \"Ghostbusters\",\r\n        \"genre\": \"SciFi\",\r\n        \"director\": \"Harold Reitman\"\r\n    }\r\n",
+					"raw": "\r\n       {\r\n        \r\n        \"title\": \"The Dark Knight\",\r\n        \"genre\": \"Drama\",\r\n        \"director\": \"Christopher Nolan\"\r\n    }\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -52,7 +52,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"movieId\": 6,\r\n        \"title\": \"Ghostbusters\",\r\n        \"genre\": \"SciFi\",\r\n        \"director\": \"Harold Reitman\"\r\n    }\r\n",
+					"raw": "    {\r\n        \r\n        \"title\": \"Ghostbusters\",\r\n        \"genre\": \"SciFi\",\r\n        \"director\": \"Harold Reitman\"\r\n    }\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
